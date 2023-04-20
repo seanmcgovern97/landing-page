@@ -1,11 +1,56 @@
 header {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
+margin: 10px;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero img {
+    width: 800px;
+    height: 150px;
+}
+
+.hero.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.characters li {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
 }
